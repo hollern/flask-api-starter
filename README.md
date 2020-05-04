@@ -32,7 +32,7 @@ QueryBuilder (within query_builder) is a custom class that allows dynamic genera
 
 More details about the QueryBuilder class and formatting the GET request arguments can be found in this same module within the RequestDataSchema class.
 
-Another module, security, is utilized to verify the identity of the requester. For example, there is a function to get the current user based on the JWT. Additionally, the security module is used to set and check the database tenant.
+Another module, security, is utilized to verify the identity of the requestor. For example, there is a function to get the current user based on the JWT. Additionally, the security module is used to set and check the database tenant.
 
 ### Services
 This package is primarily focused on connecting with external web services, such as Twilio and SendGrid. Currently, this is solely used for connecting with SendGrid to provide support for transactional email.
