@@ -1,6 +1,6 @@
-/venv/*
-/.idea/*
-/old/*
-/tests/*
-/config.json
-/__pycache__/*
+venv/
+.idea/
+old/*
+tests/*
+config.json
+__pycache__/
