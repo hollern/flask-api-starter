@@ -1,0 +1,17 @@
+{
+  "system_email": "mscott@dundermifflin.com",
+  "secrets": {
+    "secret_key": "use secrets library",
+    "jwt_secret_key": "use secrets library"
+  },
+  "database": {
+    "development_uri": "postgres://{username}:{password}@{host}:{port}/{database}",
+    "testing_uri": "postgres://{username}:{password}@{host}:{port}/{database}",
+    "live_uri": "postgres://{username}:{password}@{host}:{port}/{database}"
+  },
+  "services": {
+    "sendgrid": {
+      "secret_key": ""
+    }
+  }
+}

@@ -1,0 +1,5 @@
+/venv/*
+/idea/*
+/old/*
+/tests/*
+/config.json
